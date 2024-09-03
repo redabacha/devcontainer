@@ -1,0 +1,8 @@
+{
+  "build": { "dockerfile": "Dockerfile" },
+  "containerEnv": { "HOME": "/home/vscode" },
+  "containerUser": "vscode",
+  "remoteUser": "vscode",
+  "runArgs": ["--userns=keep-id"],
+  "updateRemoteUserUID": true
+}
