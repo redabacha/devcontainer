@@ -1,1 +1,1 @@
-This a simple devcontainer based on Ubuntu with zsh configured by default that has the latest versions of Node.js (via fnm), Deno and Bun installed.
+This a simple devcontainer based on Ubuntu with zsh configured by default that has the latest versions of Node.js (via fnm), Deno and Bun installed. It should work in Podman without any changes necessary.
