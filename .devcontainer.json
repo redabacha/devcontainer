@@ -3,6 +3,6 @@
   "containerEnv": { "HOME": "/home/vscode" },
   "containerUser": "vscode",
   "remoteUser": "vscode",
-  "runArgs": ["--userns=keep-id"],
+  "runArgs": ["--userns=keep-id", "--security-opt=label=disable"],
   "updateRemoteUserUID": true
 }
